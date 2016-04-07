@@ -29,6 +29,7 @@ function most_data() {
 most_data();
 
 function most_apps() {
+    //////////////////////////////////////////////walter///////////////////
     var apps1 = "Walter sent: Hello. I’ve got Faceblock and Instantgam. I’m too old for the other ones.";
 
     var cut1 = apps1
@@ -42,43 +43,43 @@ function most_apps() {
         karma.push(apps1.split(" and "))
     })
 
-    ///////////////////////////////////////////////-----------------------------------/////////////////////////////////////
+    ///////////////////////////////////////////////jesse/////////////////////////////////////
 
     var apps2 = "Jesse sent: Yo! I’ve got ‘em all. Tooter, Faceblock, Instantgam, Snaptalk.";
     var cut2 = apps2.replace("Jesse sent: Yo! I’ve got ‘em all. ", "").split(",");
 
     var karma2 = [];
-    cut2.forEach(function(apps2){
-    	karma2.push(apps2.split(","))
+    cut2.forEach(function(apps2) {
+        karma2.push(apps2.split(","))
     })
-   
-   /////////////////////////////////////////////----------------------------------////////////////////////////////
 
-   // var apps3 = "Saul sent: I’m on LankedOn for Business. And I have an Instantgam account for my cats. Oh, and Faceblock for my ex-husbands.";
-   // var cut3 = apps3
-   // .replace("Saul sent: I’m on ", "")
-   // .replace("for Business", "")
-   // .replace("And I have an", "")
-   // .replace("account my cats", "")
-   // .replace("Oh, and", "")
-   // .replace("for my ex-husbands", "")
-   // .split(",")
+    /////////////////////////////////////////////Saul////////////////////////////////
 
-   // var karma3 = [];
-   // cut3.forEach(function(apps3){
-   // 	karma3.push(apps3.split(","));
-   });
-   ///////////////////////////////////////////-----------------------------------///////////////////////////////
+    // var apps3 = "Saul sent: I’m on LankedOn for Business. And I have an Instantgam account for my cats. Oh, and Faceblock for my ex-husbands.";
+    // var cut3 = apps3
+    // .replace("Saul sent: I’m on ", "")
+    // .replace("for Business", "")
+    // .replace("And I have an", "")
+    // .replace("account my cats", "")
+    // .replace("Oh, and", "")
+    // .replace("for my ex-husbands", "")
+    // .split(",")
 
-   var apps4 = "Gus sent: I use Tooter and Instantgam";
-   var cut4 = apps4
-   .replace("Gus sent: I use", " ")
-   .split(" and ");
+    // var karma3 = [];
+    // cut3.forEach(function(apps3){
+    // 	karma3.push(apps3.split(","));
+    // });
+    ///////////////////////////////////////////Gus///////////////////////////////
 
-   var karma4 = [];
-   cut4.forEach(function(apps4){
-   	karma4.push(apps4.split(","))
-   })
+    var apps4 = "Gus sent: I use Tooter and Instantgam";
+    var cut4 = apps4
+        .replace("Gus sent: I use", " ")
+        .split(" and ");
+
+    var karma4 = [];
+    cut4.forEach(function(apps4) {
+        karma4.push(apps4.split(","))
+    })
     console.log(karma);
     console.log(karma2);
     console.log(karma3);
